@@ -34,19 +34,19 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-Version: 1
-# top level packages
-Packages:
-  - pillar
-  - R6
+
+      # top level packages
+      - name: Packages
+          pillar
+          R6
 
 
 # any repositories, order matters
-Repos:
-  - CRAN: "https://cran.microsoft.com/snapshot/2019-11-01"
-  - CRAN2: "https://cran.microsoft.com/snapshot/2020-05-01"
+      - Repos:
+  CRAN: "https://cran.microsoft.com/snapshot/2019-11-01"
+  CRAN2: "https://cran.microsoft.com/snapshot/2020-05-01"
 
-Library: "test-library"
+       - Library: "test-library"
 
 Customizations:
   Packages:
