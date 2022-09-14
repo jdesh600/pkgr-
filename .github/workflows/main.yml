@@ -46,7 +46,7 @@ jobs:
   CRAN: "https://cran.microsoft.com/snapshot/2019-11-01"
   CRAN2: "https://cran.microsoft.com/snapshot/2020-05-01"
 
-       - Library: "test-library"
+      - Library: "test-library"
 
 Customizations:
   Packages:
